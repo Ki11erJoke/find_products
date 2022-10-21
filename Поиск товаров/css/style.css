@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+input{
+    background-color: transparent;
+    outline: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+header{
+   background-color: #B83B5E; 
+}
+
+footer{
+    background-color: #52616B;
+    float: left;
+    width: 100%;
+    height: 230px;
+}
+
+button{
+    background-color: transparent;
+}
+
+/*-------------------------------------------*/
+
+/*
+.header_contacts{
+    background-color: #B83B5E;
+    height: 30px;
+    line-height: 30px;
+    
+    text-align: right;
+    
+    padding-right: 30px;
+}
+
+/*-------------------------------------------*/
+
+
+/*-------------------------------------------*/
+

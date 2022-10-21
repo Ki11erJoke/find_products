@@ -1,0 +1,120 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>Поиск товаров</title>
+	    
+	    <link rel="stylesheet" href="css/style.css">
+	    <link rel="stylesheet" href="css/header_footer.css">
+	    <link rel="stylesheet" href="css/main_page.css">
+	</head>
+	<body>
+        
+	    <header>
+	        
+	        <div class="header_main">
+                <div class="header_logo">
+                    <a href="#">
+	                    <img src="img/logo.png" alt="">
+	                        Поиск товаров
+	                </a>
+                </div>
+                
+                <div class="header_search">
+                    <input id="search_string" type="text" placeholder="Что искать...">
+                    <div class="lupa">
+                        <button id="find_button"><img src="img/search.png" alt=""></button>
+                    </div>
+                </div>
+                
+	            <div class="header_autorization">
+	                <a href="#">
+	                <span>
+	                    <img src="img/autorization.png" alt="">
+	                </span>
+	                <span>Вход</span>
+	            </a>
+	            </div>
+            </div>
+            
+	        <div class="header_categories">
+	            <div class="header_links">
+	                <a href="#">Lorem</a>
+	                <a href="#">Ipsum</a>
+	                <a href="#">Dolor</a>
+	                <a href="#">Sit</a>
+	                <a href="#">Amet</a>
+	            </div>
+	        </div>
+	    </header>
+        
+	    
+	    <div class="main_page" id="main_page">
+            <div class="products_block">
+                <div class="block_grid" id="script_prod_block">
+                   
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="find_page" id="find_page">
+            <div class="filters_block">
+                <div class="filter_categoies">
+                    <a href="#">Lorem</a>
+	                <a href="#">Ipsum</a>
+	                <a href="#">Dolor</a>
+	                <a href="#">Sit</a>
+	                <a href="#">Amet</a>
+                </div>
+                <div class="filter_price">
+                   <span>Цена</span>
+                    <input id="min_price" placeholder="от" type="text">
+                    <input id="max_price" placeholder="до" type="text">
+                    <input onchange="changeMaxPrice()" onmousemove="changeMaxPrice()" id="price_range" value="20000" type="range" max="20000">
+                </div>
+            </div>
+            <div class="products_block">
+                <div class="block_grid" id="script_find_block">
+                    
+                </div>
+            </div>
+        </div>
+        
+	    
+	    <footer>
+        
+	        <div class="footer_company_name">
+	            <span><img src="img/logo.png" alt="">Поиск товаров</span>
+	            <br>
+	            <span class="footer_company_name_small">20XX-20XX OOO "Поиск товаров"</span>
+	        </div>
+            
+            <div class="footer_phone">
+	            <span>8(901)234-56-78</span>
+	        </div>
+	        
+	        <div class="footer_autorization">
+	            <input type="email" placeholder="Введите электронную почту...">
+	            <div class="footer_get_email">
+	                <input type="button">
+	                <img src="img/send_email.png" alt="">
+	            </div>
+	        </div>
+	        
+	        <div class="footer_links">
+	            <div class="about">
+                    <span>О компании</span>
+                    <br>
+	                <a href="#">О нас</a>
+	                <a href="#">Связаться с нами</a>
+	                <a href="#">Помощь</a>
+	            </div>
+	        </div>
+	        
+	    </footer>
+	    
+	    <script src="js/script.js"></script>
+	    
+	</body>
+	</html>
